@@ -19,13 +19,13 @@ This project is created with MAMP and Android Studio. To run this project you ne
 
 **To run the project, you need to open Apache, mySql and MAMP servers.**
 
-###### Android
+##### Android
 
 On Android Studio, you need to implement; 
 'com.android.support:design:28.0.0' for the design and
 'com.android.volley:volley:1.1.0' for the Volley Library.
 
-###### PHP
+##### PHP
 
 On phpMyAdmin, create a structure name 'users'. Under the users, create a table name 'users_table' which contains 4 columns.
 
@@ -34,7 +34,7 @@ Second colums name is 'name' which is a type of varchar of value 30. (utf8_gener
 Third colums name is 'email' which is a type of varchar of value 50. (utf8_general_ci)
 Fourth colums name is 'password' which is a type of text.  (utf8_general_ci)
 
-###### MAMP
+##### MAMP
 
 Under the your localhost folder (In my case it is /Applications/MAMP/htdocs) put the android_register_login folder on it.
 
